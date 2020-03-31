@@ -40,7 +40,8 @@ module.exports = {
       .select('ong_id')
       .first();
 
-    if (incidentToBeDeleted.ong_id !== ong_id) {
+    if (!incidentToBeDeleted 
+        || incidentToBeDeleted.ong_id !== ong_id) {
       return response.status(401).json({error: 'Operation not authorized.'});
     }
 
