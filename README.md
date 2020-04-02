@@ -24,6 +24,7 @@ Thus, anyone could find incidents of all registered organizations and be the her
 ## How to use it
 
 ### BackEnd
+npx knex migrate:latest
 npm install & npm start
 
 ### front web
