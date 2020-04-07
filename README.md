@@ -24,11 +24,10 @@ Thus, anyone could find incidents of all registered organizations and be the her
 ## How to use it
 
 ### BackEnd
-npx knex migrate:latest
-npm install & npm start
+npx knex migrate:latest && npm install && npm start
 
 ### front web
-npm install & npm start
+npm install && npm start
 
 ### front mobile
 yarn install && yarn start
